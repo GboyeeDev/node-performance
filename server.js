@@ -21,3 +21,6 @@ app.get('/timer', (req, res) => {
 })
 
 
+console.log('Running server.js..')
+console.log('Worker process started');
+app.listen(5000);
