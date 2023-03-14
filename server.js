@@ -20,7 +20,4 @@ app.get('/timer', (req, res) => {
     res.send(`work work work! ${process.pid}`);
 })
 
-console.log('Running server.js..')
-console.log('Worker process started');
-app.listen(5000);
 
